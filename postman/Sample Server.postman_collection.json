@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "fc7eecf0-0016-4c6f-9d44-e70d62b73c7a",
+		"name": "Sample Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Greeting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greeting?name=Song",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greeting"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Song"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Go Crazy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/go-crazy?number=20&repeat=1000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"go-crazy"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "20"
+						},
+						{
+							"key": "repeat",
+							"value": "1000000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
